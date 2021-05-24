@@ -1,0 +1,28 @@
+.copy-description{
+    padding-inline-start: 16px;
+    padding-inline-end:16px ;
+    padding-block-start: 40;
+    padding-block-end: 40;
+    font: var(--headLine5);
+    font-weight: 400;
+    
+}
+.copy-projects {
+    margin-block-start: 24;
+    margin-block-end: 24;
+    margin-inline-start: 16;
+    margin-inline-end: 16px;
+    font: var(--headLine5);
+
+}
+
+@media screen and (min-width: 768px) {
+    .copy-projects {
+        display: flex;
+        justify-content: center;
+        align-items: center
+        font: var(--headLine5);
+    
+    }
+    
+}
